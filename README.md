@@ -36,7 +36,7 @@ Multi-language support (at least English first; design so others can be added).
 
 Developer-friendly APIs for integration into web/mobile apps.
 
-2.2 Non-Goals (for now)
+<h3>2.2 Non-Goals (for now)</h3>
 
 Full conversation-level analysis (multi-minute dialogues).
 
@@ -44,21 +44,22 @@ Real-time streaming feedback (initially process after recording).
 
 Clinical diagnostics (not a medical device; informational/educational only).
 
-3. User Personas
 
-3.1 Language Learner (End User)
+<h2>3. User Personas</h2>
+
+<h3>3.1 Language Learner (End User)</h3>
 
 Wants to practice reading out loud or repeating phrases.
 
 Expects clear feedback like “Your /r/ sound in ‘red’ needs work.”
 
-3.2 Teacher / Coach
+<h3>3.2 Teacher / Coach</h3>
 
 Wants to assign exercises and see student progress.
 
 Needs per-utterance and aggregate statistics.
 
-3.3 Developer / Integrator
+<h3>3.3 Developer / Integrator</h3>
 
 Wants REST/GraphQL APIs to:
 
