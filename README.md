@@ -69,7 +69,7 @@ Retrieve scores & feedback
 
 Get progress data over time
 
-4. High-Level Features
+<h2>4. High-Level Features</h2>
 
 Audio Capture & Upload
 
@@ -131,9 +131,9 @@ Store scores over time
 
 Per-user dashboards
 
-5. System Architecture
+<h2>5. System Architecture</h2>
 
-5.1 Logical Components
+<h3>5.1 Logical Components</h3>
 
 Frontend
 
@@ -171,7 +171,7 @@ ASR models
 
 Acoustic/embedding models for scoring
 
-5.2 Proposed Tech Stack
+<h3>5.2 Proposed Tech Stack</h3>
 
 You can tweak this, but as a starting point:
 
@@ -185,7 +185,7 @@ DB: PostgreSQL for structured data, object storage (S3-like) for audio
 
 Frontend: React (web) / React Native (mobile, later)
 
-6. Processing Pipeline
+<h2>6. Processing Pipeline</h2>
 
 Input
 
@@ -265,9 +265,9 @@ Fluency metrics and prosody (if enabled)
 
 Feedback messages
 
-7. API Design (Draft)
+<h2>7. API Design (Draft)</h2>
 
-7.1 Submit Audio for Analysis
+<h3>7.1 Submit Audio for Analysis</h3>
 
 POST /api/v1/analyze
 
@@ -288,7 +288,7 @@ Response (JSON)
   "status": "processing"
 }
 
-7.2 Get Analysis Result
+<h3>7.2 Get Analysis Result</h3>
 
 GET /api/v1/analyze/{job_id}
 
@@ -330,9 +330,9 @@ Response (JSON)
   }
 }
 
-8. Data Model (Draft)
+<h2>8. Data Model (Draft)</h2>
 
-8.1 Users
+<h3>8.1 Users</h3>
 
 id
 
@@ -342,7 +342,7 @@ created_at
 
 settings (language, level, etc.)
 
-8.2 Prompts / Sentences
+<h3>8.2 Prompts / Sentences</h3>
 
 id
 
@@ -352,7 +352,7 @@ language_code
 
 level (A1–C2, etc.)
 
-8.3 Sessions / Attempts
+<h3>8.3 Sessions / Attempts</h3>
 
 id
 
@@ -364,7 +364,7 @@ audio_path
 
 created_at
 
-8.4 AnalysisResults
+<h3>8.4 AnalysisResults</h3>
 
 id
 
@@ -382,9 +382,9 @@ feedback (JSON)
 
 created_at
 
-9. Roadmap
+<h2>9. Roadmap</h2>
 
-Phase 1 – MVP
+<h3>Phase 1 – MVP</h3>
 
 Single language (e.g., English)
 
@@ -396,7 +396,7 @@ Simple feedback messages
 
 Basic REST API + barebones web UI
 
-Phase 2 – Enhanced Feedback
+<h3>Phase 2 – Enhanced Feedback</h3>
 
 Better prosody analysis
 
@@ -404,7 +404,7 @@ Phoneme-specific practice suggestions
 
 Visualizations (waveform, pitch, colored phonemes)
 
-Phase 3 – Multi-language & Scaling
+<h3>Phase 3 – Multi-language & Scaling</h3>
 
 Add languages
 
@@ -412,7 +412,7 @@ Improve performance / scalability
 
 Teacher dashboards, assignments, and reports
 
-10. Limitations & Ethical Considerations
+<h2>10. Limitations & Ethical Considerations</h2>
 
 The system provides educational feedback, not clinical diagnosis.
 
