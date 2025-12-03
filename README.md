@@ -22,6 +22,7 @@ Public speaking and presentation practice
 Clinical / research settings (fluency tracking over time)
 
 2. Goals & Non-Goals
+
 2.1 Goals
 
 Accurate feedback on pronunciation and fluency for short utterances (phrases / sentences).
