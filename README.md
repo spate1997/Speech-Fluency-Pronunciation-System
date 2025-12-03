@@ -130,6 +130,7 @@ Store scores over time
 Per-user dashboards
 
 5. System Architecture
+
 5.1 Logical Components
 
 Frontend
@@ -263,6 +264,7 @@ Fluency metrics and prosody (if enabled)
 Feedback messages
 
 7. API Design (Draft)
+
 7.1 Submit Audio for Analysis
 
 POST /api/v1/analyze
@@ -327,6 +329,7 @@ Response (JSON)
 }
 
 8. Data Model (Draft)
+
 8.1 Users
 
 id
