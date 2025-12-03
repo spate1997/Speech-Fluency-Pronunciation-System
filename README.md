@@ -1,6 +1,6 @@
-<h1>**Speech Fluency & Pronunciation System**</h1>
+<h1>Speech Fluency & Pronunciation System</h1>
 
-<h2>**1. Overview**</h2>
+<h2>1. Overview</h2>
 
 The Speech Fluency & Pronunciation System is an AI-powered platform that helps learners improve:
 
@@ -22,7 +22,7 @@ Public speaking and presentation practice
 
 Clinical / research settings (fluency tracking over time)
 
-<h2>**2. Goals & Non-Goals**</h2>
+<h2>2. Goals & Non-Goals</h2>
 
 <h3>2.1 Goals</h3>
 
