@@ -44,6 +44,7 @@ Real-time streaming feedback (initially process after recording).
 Clinical diagnostics (not a medical device; informational/educational only).
 
 3. User Personas
+
 3.1 Language Learner (End User)
 
 Wants to practice reading out loud or repeating phrases.
